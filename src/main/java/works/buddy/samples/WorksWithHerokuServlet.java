@@ -13,7 +13,7 @@ public class WorksWithHerokuServlet extends HttpServlet {
         response.setContentType("text/plain");
         response.setStatus(404);
         PrintWriter writer = response.getWriter();
-        writer.print("Sample Demo Page as part of Super League DevOps Sessions covering CI and CD activities");
+        writer.print("Sample Demo Page as part of Super League DevOps Sessions covering CI and CD activities including Nexus as artifactory tool, SonarQube for code quality");
         writer.close();
     }
 }
