@@ -36,6 +36,6 @@ public class WorksWithHerokuServletTest {
         when(response.getWriter()).thenReturn(writer);
 
         servlet.doGet(request, response);
-        assertEquals("Sample Demo Page as part of Super League DevOps Sessions covering CI and CD activities", new String( out.toByteArray(), "UTF-8"));
+        assertEquals("Sample Demo Page as part of Super League DevOps Sessions covering CI and CD activitiesSample Demo Page as part of Super League DevOps Sessions covering CI and CD activities including Nexus as artifactory tool, SonarQube for code quality", new String( out.toByteArray(), "UTF-8"));
     }
 }
